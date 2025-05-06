@@ -1,21 +1,16 @@
 const element = (
-  const Box = (props) => {
-  return (
-    <div className={`${props.className}`}>
-      <p>{props.text}</p>
+  // Write your code here.
+  <div className='bg-container'>
+    <div>
+      <h1 className='congo'>Congratulations</h1>
     </div>
-  );
-};
-
-const element = (
-  <div>
-    <h1>Boxes</h1>
-    <div className="boxContainer">
-      <Box className="box box1" text="Small" />
-      <Box className="box box2" text="Medium" />
-      <Box className="box box3" text="Large" />
+    <div className='personCard'>
+      <img src='https://assets.ccbp.in/frontend/react-js/congrats-card-profile-img.png' />
+      <h1>Kiran V</h1>
+      <p>Vishnu Institute of Computer Education and Technology, Bhimavaram.</p>
+      <img src='https://assets.ccbp.in/frontend/react-js/congrats-card-watch-img.png' />
     </div>
   </div>
-  )
-);
+)
+
 ReactDOM.render(element, document.getElementById('root'))
